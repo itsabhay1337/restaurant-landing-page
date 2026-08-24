@@ -273,3 +273,6 @@ function ctaSection() {
   });
 }
 ctaSection();
+window.addEventListener("load", () => {
+  ScrollTrigger.refresh();
+});
